@@ -83,7 +83,7 @@ for j in range(60000):
 print ("Выходные данные после тренировки:")
 i = 0
 while i < 9:
-        y_norm[i] = y[i] * 5
+        y_norm[i] = l2[i] * 5
         i += 1
 Z = (np.rint(y_norm)).T
 print(Z)
