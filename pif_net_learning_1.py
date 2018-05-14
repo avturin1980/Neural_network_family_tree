@@ -76,7 +76,7 @@ syn1 = 2 * np.random.random((9, 1)) - 1
 print(syn0)
 print(syn1)
 
-for j in range(900000):
+for j in range(900):
     # проходим слои 0, 1 и 2
     l0 = X
     l1 = nonlin(np.dot(l0, syn0))
